@@ -1,0 +1,43 @@
+{
+  "errCode": 0,
+  "errMsg": "",
+  "costTime": 1152,
+  "data": {
+    "source": 1,
+    "id": "57fcb9c337f943000a88e3d9",
+    "title": "严助二",
+    "subtitle": "",
+    "media": "广发证券",
+    "content": "\u003cp\u003e\u003cspan style=\"color: rgb(51, 51, 51); font-size: 14px;\"\u003e田蚡认为，越人互相攻击，是他们的平常事情，又多次反复背叛，不值得中国前去救援，从秦朝时就抛弃了那里，不隶属于中国。\u003c/span\u003e\u003cbr\u003e\u003c/p\u003e",
+    "privilege": 0,
+    "status": 100,
+    "dataFlag": 0,
+    "createTime": 1476180419,
+    "updateTime": 1477359798,
+    "publishTime": 1477303969,
+    "categories": [],
+    "columns": [
+      "57e4e49af5a4652492d58f2a"
+    ],
+    "picUrl": "",
+    "bigPicUrl": "",
+    "roundup": "",
+    "keywords": [],
+    "authors": [
+      {
+        "name": "哈啊哈",
+        "certiCode": ""
+      }
+    ],
+    "sourceName": "广发证券",
+    "extPrivilege": "",
+    "columnsObj": [
+      {
+        "id": "57e4e49af5a4652492d58f2a",
+        "title": "专栏"
+      }
+    ],
+    "txtType": 1,
+    "offlineTime": 0
+  }
+}

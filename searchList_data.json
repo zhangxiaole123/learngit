@@ -1,0 +1,51 @@
+{
+  "errCode": 0,
+  "errMsg": "",
+  "costTime": 220,
+  "page": 3,
+  "pageSize": 4,
+  "total": 3351,
+  "keywords": " 英国",
+  "data": [
+    {
+      "id": "5952f68a5f1eb14066a8ca5a",
+      "title": "新一轮超强电脑病毒正在包括俄罗斯、英国、乌克兰等在内的欧洲多个国家迅速蔓延",
+      "picUrl": "",
+      "publishTime": 1498608971,
+      "privilege": 0,
+      "media": "第一财经",
+      "type": 0,
+      "txtType": 1
+    },
+    {
+      "id": "5952f5405f1eb14066a8bfed",
+      "title": "苏格兰政府宣布不会在英国\"脱欧\"前寻求独立公投",
+      "picUrl": "",
+      "publishTime": 1498608584,
+      "privilege": 0,
+      "media": "财经信息网",
+      "type": 0,
+      "txtType": 1
+    },
+    {
+      "id": "595265d05f1eb14066a84e89",
+      "title": "英国6月CBI零售销差值反弹 但前景仍疲弱",
+      "picUrl": "",
+      "publishTime": 1498571967,
+      "privilege": 0,
+      "media": "财经信息网",
+      "type": 0,
+      "txtType": 1
+    },
+    {
+      "id": "5952347a5f1eb14066a80677",
+      "title": "英国央行行长卡尼表示 金融稳定性潜在风险与一系列退欧的可能结果有关",
+      "picUrl": "",
+      "publishTime": 1498559304,
+      "privilege": 0,
+      "media": "第一财经",
+      "type": 0,
+      "txtType": 1
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "errCode": 0,
+  "errMsg": "",
+  "costTime": 303,
+  "page": 1,
+  "pageSize": 10,
+  "data": [
+    {
+      "id": "59535f6c5f1eb1613bb4d178",
+      "title": "花旗:空方切勿自满 季节性因素料令美指跌势暂歇",
+      "picUrl": "",
+      "publishTime": 1498635884,
+      "privilege": 0,
+      "media": "汇通网",
+      "type": 0,
+      "txtType": 1
+    },
+    {
+      "id": "59535f6c5f1eb1613bb4d175",
+      "title": "英镑/美元6月28日最新技术分析",
+      "picUrl": "",
+      "publishTime": 1498635869,
+      "privilege": 0,
+      "media": "财经信息网",
+      "type": 0,
+      "txtType": 1
+    },
+    {
+      "id": "59535f6c5f1eb1613bb4d173",
+      "title": "交易商:欧元/美元6月28日交易策略",
+      "picUrl": "",
+      "publishTime": 1498635842,
+      "privilege": 0,
+      "media": "财经信息网",
+      "type": 0,
+      "txtType": 1
+    },
+    {
+      "id": "59535f6c5f1eb1613bb4d172",
+      "title": "涨停板复盘 大势低迷 自然涨停个股仅6家",
+      "picUrl": "",
+      "publishTime": 1498635817,
+      "privilege": 0,
+      "media": "第一财经",
+      "type": 0,
+      "txtType": 1
+    },
+    {
+      "id": "59535eb95f1eb1613bb4ce0b",
+      "title": "天信点评:能否突破就看一点 谨防背离形态出现",
+      "picUrl": "",
+      "publishTime": 1498635790,
+      "privilege": 0,
+      "media": "财经信息网",
+      "type": 0,
+      "txtType": 1
+    },
+    {
+      "id": "59535eb95f1eb1613bb4ce0a",
+      "title": "现货银三个月后或将重探每盎司13.60美元的低位",
+      "picUrl": "",
+      "publishTime": 1498635745,
+      "privilege": 0,
+      "media": "汇通网",
+      "type": 0,
+      "txtType": 1
+    },
+    {
+      "id": "59535f6c5f1eb1613bb4d16a",
+      "title": "新疆板块午后逆势拉升 西部建设涨停",
+      "picUrl": "",
+      "publishTime": 1498635724,
+      "privilege": 0,
+      "media": "财经信息网",
+      "type": 0,
+      "txtType": 1
+    },
+    {
+      "id": "59535eb95f1eb1613bb4ce08",
+      "title": "河南棉籽价格2017年6月28日行情",
+      "picUrl": "",
+      "publishTime": 1498635699,
+      "privilege": 0,
+      "media": "财经信息网",
+      "type": 0,
+      "txtType": 1
+    },
+    {
+      "id": "59535f6c5f1eb1613bb4d179",
+      "title": "消息指安倍晋三或放弃2020财年预算平衡目标",
+      "picUrl": "",
+      "publishTime": 1498635697,
+      "privilege": 0,
+      "media": "财经信息网",
+      "type": 0,
+      "txtType": 1
+    },
+    {
+      "id": "59535eb95f1eb1613bb4ce07",
+      "title": "沪综指收跌,蓝筹股走势和缓短期大盘将维持盘整格局",
+      "picUrl": "",
+      "publishTime": 1498635668,
+      "privilege": 0,
+      "media": "财经信息网",
+      "type": 0,
+      "txtType": 1
+    }
+  ],
+  "banners": [
+    {
+      "type": 0,
+      "title": "沪深交易所联合发布债券质押式回购交易结算风险控制指引",
+      "articleId": "584a737b7c5f6d71d789a3eb",
+      "linkUrl": "http://10.2.122.58/test/584a737b7c5f6d71d789a3eb",
+      "picUrl": "http://10.2.124.210:8090/public/file/d5c7350d846da8eac726683f33751775.jpg",
+      "createTime": 0
+    },
+    {
+      "type": 0,
+      "title": "20多省市都出台混改方案了:改制上市员工持股成高频词",
+      "articleId": "589ae194a059010944f395ab",
+      "linkUrl": "http://10.2.122.58/test/589ae194a059010944f395ab",
+      "picUrl": "http://10.2.124.210:8090/public/file/5c7c0a5ce6029a15e620096afc212da9.jpg",
+      "createTime": 1486610204
+    },
+    {
+      "type": 0,
+      "title": "方星海:研究完善沪港通、深港通、QFII、RQFII额度管理等机制",
+      "articleId": "5952eab45f1eb14066a8927a",
+      "linkUrl": "",
+      "picUrl": "http://10.2.124.210:8090/public/file/a8517a15d265c2246eb29c4527c0dbe3.jpg",
+      "createTime": 1498612528
+    }
+  ],
+  "episodes": {
+    "pos": 8,
+    "data": [
+      {
+        "id": "580d7a2389bc6c0008c0885f",
+        "title": "人民币贬值影响市场信心，大盘恐难出现持续性反弹",
+        "picUrl": "",
+        "publishTime": 1477278146,
+        "privilege": 0,
+        "media": "",
+        "provider": {
+          "id": "57aade6afffa9f0008d28333",
+          "name": "宋峰",
+          "thumb_url": "https://image-10040459.file.myqcloud.com/57aade5afffa9f0008d28332.jpg",
+          "title": "广发证券投资顾问"
+        }
+      },
+      {
+        "id": "580d5de689bc6c0008c0884f",
+        "title": "银监会：严禁银行理财资金违规进入房地产领域",
+        "picUrl": "",
+        "publishTime": 1477270967,
+        "privilege": 0,
+        "media": "",
+        "provider": {
+          "id": "5795cfbcb05063000b284ff0",
+          "name": "李达",
+          "thumb_url": "https://image-10040459.file.myqcloud.com/5795cfb9b05063000b284fef.jpg",
+          "title": "广发证券投资顾问"
+        }
+      },
+      {
+        "id": "58081a8589bc6c0008c08836",
+        "title": "新华社：房地产市场百病缠身 必须铁腕整治",
+        "picUrl": "",
+        "publishTime": 1476925946,
+        "privilege": 0,
+        "media": "",
+        "provider": {
+          "id": "5795a17ab05063000b284f62",
+          "name": "文赋",
+          "thumb_url": "https://image-10040459.file.myqcloud.com/5795a66cb05063000b284f6c.jpg",
+          "title": "广发证券投资顾问"
+        }
+      },
+      {
+        "id": "5806c96289bc6c0008c08833",
+        "title": "低速电动车管理请示获国务院批示同意",
+        "picUrl": "",
+        "publishTime": 1476839607,
+        "privilege": 0,
+        "media": "",
+        "provider": {
+          "id": "5795a1c1b05063000b284f64",
+          "name": "陈达",
+          "thumb_url": "https://image-10040459.file.myqcloud.com/5795a65eb05063000b284f69.jpg",
+          "title": "广发证券投资顾问"
+        }
+      },
+      {
+        "id": "5804234589bc6c0008c08816",
+        "title": "轻工申烨：地产调控升级，家具股何去何从？",
+        "picUrl": "",
+        "publishTime": 1476666137,
+        "privilege": 0,
+        "media": "",
+        "provider": {
+          "id": "57ba4ef6fffa9f0008d2838b",
+          "name": "申烨",
+          "thumb_url": "https://image-10040459.file.myqcloud.com/57ba4ebdfffa9f0008d2838a.jpg",
+          "title": "广发证券轻工首席分析师"
+        }
+      }
+    ]
+  }
+}

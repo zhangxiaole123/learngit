@@ -1,0 +1,220 @@
+{
+    "errCode": 0,
+    "errMsg": "",
+    "costTime": 2,
+    "page": 1,
+    "pageSize": 10,
+    "data": [
+        {
+            "id": "5954cd0c5f1eb1613bb831a1",
+            "title": "超180亿 兖煤(600188)并购联合煤炭方案获力拓股东会通过",
+            "picUrl": "http://10.2.124.210:8090/public/file/7d0ad9fa364a9b462b6d44be68baa856.jpg",
+            "publishTime": 1498729413,
+            "privilege": 0,
+            "media": "财经信息网",
+            "type": 0
+        },
+        {
+            "id": "5954cd0c5f1eb1613bb831a2",
+            "title": "商务部回应福耀(600660)在美危机:希望企业走出去时审慎决策",
+            "picUrl": "http://10.2.124.210:8090/public/file/9963def5df7c58ebef87844ffbe0da54.jpg",
+            "publishTime": 1498729324,
+            "privilege": 0,
+            "media": "中国证券网",
+            "type": 0
+        },
+        {
+            "id": "5954ca1e5f1eb1613bb82f8b",
+            "title": "财政部 国家粮食局支持实施\"优质粮食工程\"积极推动农业供给侧结构性改革",
+            "picUrl": "http://10.2.124.210:8090/public/file/29ccab51009c675db283595fbd3b302f.jpg",
+            "publishTime": 1498728727,
+            "privilege": 0,
+            "media": "财政部",
+            "type": 0
+        },
+        {
+            "id": "5954c5505f1eb1613bb81f58",
+            "title": "房地产企业发行超短期外债 以避开监管备案",
+            "picUrl": "http://10.2.124.210:8090/public/file/69ef3ab80e9eb0f6f7dca9e88cd64d50.jpg",
+            "publishTime": 1498727398,
+            "privilege": 0,
+            "media": "财经信息网",
+            "type": 0
+        },
+        {
+            "id": "5954c1cc5f1eb1613bb8143d",
+            "title": "6月并购重组审核数占上半年三分之一",
+            "picUrl": "http://10.2.124.210:8090/public/file/fdfce09bc1141fe1d42a20fe27ca55c7.jpg",
+            "publishTime": 1498726587,
+            "privilege": 0,
+            "media": "财经信息网",
+            "type": 0
+        },
+        {
+            "id": "5954b7f45f1eb1613bb7ef5c",
+            "title": "李小加:港交所计划推出A股衍生品 债券通万事俱备只欠东风",
+            "picUrl": "http://10.2.124.210:8090/public/file/767fe303eeba296f6761b09a1e1f4aef.jpg",
+            "publishTime": 1498724158,
+            "privilege": 0,
+            "media": "财经信息网",
+            "type": 0
+        },
+        {
+            "id": "5954b3bc5f1eb1613bb7e059",
+            "title": "收盘分析:A股市场人气回暖 创业板指盘中涨近1%",
+            "picUrl": "http://10.2.124.210:8090/public/file/a2e4fff2078822359dab95ae0c353f8f.jpg",
+            "publishTime": 1498722932,
+            "privilege": 0,
+            "media": "第一财经",
+            "type": 0
+        },
+        {
+            "id": "5954af845f1eb1613bb7ccaf",
+            "title": "商务部:积极推进香港与内地经贸领域深化合作",
+            "picUrl": "http://10.2.124.210:8090/public/file/6bf64dbe7a4b5eb4de33b341057e1e70.jpg",
+            "publishTime": 1498721914,
+            "privilege": 0,
+            "media": "中国证券网",
+            "type": 0
+        },
+        {
+            "id": "5954a8855f1eb1613bb7aafe",
+            "title": "港交所李小加:离岸A股衍生产品或下半年推出",
+            "picUrl": "http://10.2.124.210:8090/public/file/ec651993a7b7793e2a74431e2fc3408c.jpg",
+            "publishTime": 1498720014,
+            "privilege": 0,
+            "media": "财经信息网",
+            "type": 0
+        },
+        {
+            "id": "5954a6605f1eb1613bb7a22d",
+            "title": "国际上如何进行PPP会计监管?",
+            "picUrl": "http://10.2.124.210:8090/public/file/c80b37dd5ef974509f0e57975135bf4c.jpg",
+            "publishTime": 1498719526,
+            "privilege": 0,
+            "media": "财经信息网",
+            "type": 0
+        }
+    ],
+    "banners": [
+        {
+            "type": 0,
+            "title": "沪深交易所联合发布债券质押式回购交易结算风险控制指引",
+            "articleId": "584a737b7c5f6d71d789a3eb",
+            "linkUrl": "http://10.2.122.58/test/584a737b7c5f6d71d789a3eb",
+            "picUrl": "http://10.2.124.210:8090/public/file/d5c7350d846da8eac726683f33751775.jpg",
+            "createTime": 0
+        },
+        {
+            "type": 0,
+            "title": "20多省市都出台混改方案了:改制上市员工持股成高频词",
+            "articleId": "589ae194a059010944f395ab",
+            "linkUrl": "http://10.2.122.58/test/589ae194a059010944f395ab",
+            "picUrl": "http://10.2.124.210:8090/public/file/5c7c0a5ce6029a15e620096afc212da9.jpg",
+            "createTime": 1486610204
+        },
+        {
+            "type": 0,
+            "title": "军民融合圈定30项重点任务 资本层面'民参军' 步伐加快",
+            "articleId": "594c722d5f1eb122cd6a49fa",
+            "linkUrl": "",
+            "picUrl": "http://10.2.124.210:8090/public/file/56694038c82733c4da91860fa246a058.jpg",
+            "createTime": 1498187421
+        }
+    ],
+    "episodes": {
+        "pos": 8,
+        "data": [
+            {
+                "id": "580d7a2389bc6c0008c0885f",
+                "title": "人民币贬值影响市场信心，大盘恐难出现持续性反弹",
+                "picUrl": "",
+                "publishTime": 1477278146,
+                "privilege": 0,
+                "media": "",
+                "provider": {
+                    "id": "57aade6afffa9f0008d28333",
+                    "name": "宋峰",
+                    "thumb_url": "https://image-10040459.file.myqcloud.com/57aade5afffa9f0008d28332.jpg",
+                    "title": "广发证券投资顾问"
+                }
+            },
+            {
+                "id": "580d5de689bc6c0008c0884f",
+                "title": "银监会：严禁银行理财资金违规进入房地产领域",
+                "picUrl": "",
+                "publishTime": 1477270967,
+                "privilege": 0,
+                "media": "",
+                "provider": {
+                    "id": "5795cfbcb05063000b284ff0",
+                    "name": "李达",
+                    "thumb_url": "https://image-10040459.file.myqcloud.com/5795cfb9b05063000b284fef.jpg",
+                    "title": "广发证券投资顾问"
+                }
+            },
+            {
+                "id": "58081a8589bc6c0008c08836",
+                "title": "新华社：房地产市场百病缠身 必须铁腕整治",
+                "picUrl": "",
+                "publishTime": 1476925946,
+                "privilege": 0,
+                "media": "",
+                "provider": {
+                    "id": "5795a17ab05063000b284f62",
+                    "name": "文赋",
+                    "thumb_url": "https://image-10040459.file.myqcloud.com/5795a66cb05063000b284f6c.jpg",
+                    "title": "广发证券投资顾问"
+                }
+            },
+            {
+                "id": "5806c96289bc6c0008c08833",
+                "title": "低速电动车管理请示获国务院批示同意",
+                "picUrl": "",
+                "publishTime": 1476839607,
+                "privilege": 0,
+                "media": "",
+                "provider": {
+                    "id": "5795a1c1b05063000b284f64",
+                    "name": "陈达",
+                    "thumb_url": "https://image-10040459.file.myqcloud.com/5795a65eb05063000b284f69.jpg",
+                    "title": "广发证券投资顾问"
+                }
+            },
+            {
+                "id": "5804234589bc6c0008c08816",
+                "title": "轻工申烨：地产调控升级，家具股何去何从？",
+                "picUrl": "",
+                "publishTime": 1476666137,
+                "privilege": 0,
+                "media": "",
+                "provider": {
+                    "id": "57ba4ef6fffa9f0008d2838b",
+                    "name": "申烨",
+                    "thumb_url": "https://image-10040459.file.myqcloud.com/57ba4ebdfffa9f0008d2838a.jpg",
+                    "title": "广发证券轻工首席分析师"
+                }
+            }
+        ]
+    },
+    "reviews": [
+        {
+            "id": "58c0af1bce8ce30227fc34e3",
+            "title": "3.9.1收评",
+            "picUrl": "http://10.2.124.210:8090/public/file/marketstrategy/58.jpg",
+            "publishTime": 1489022450,
+            "privilege": 2,
+            "media": "收盘点评",
+            "type": 0
+        },
+        {
+            "id": "59229f9d1fb89e0009108699",
+            "title": "标题配图",
+            "picUrl": "http://10.2.124.210:8090/public/file/marketstrategy/41.jpg",
+            "publishTime": 1495441332,
+            "privilege": 0,
+            "media": "广发证券",
+            "type": 0
+        }
+    ]
+}

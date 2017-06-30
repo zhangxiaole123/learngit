@@ -1,0 +1,59 @@
+{
+  "errCode": 0,
+  "errMsg": "",
+  "costTime": 78,
+  "page": 2,
+  "pageSize": 5,
+  "data": [
+    {
+      "id": "595216f25f1eb14066a7daec",
+      "title": "解密资金出逃股 连续5日净流出452股",
+      "picUrl": "",
+      "publishTime": 1498651864175,
+      "privilege": 0,
+      "media": "证券时报",
+      "type": 0,
+      "txtType": 1
+    },
+    {
+      "id": "595216f25f1eb14066a7daea",
+      "title": "交通运输部:广深港高铁香港段预计2018年建成",
+      "picUrl": "",
+      "publishTime": 1498651864175  ,
+      "privilege": 0,
+      "media": "证券时报",
+      "type": 0,
+      "txtType": 1
+    },
+    {
+      "id": "5952165c5f1eb14066a7d821",
+      "title": "市场形成一致预期 短期关注量能变化",
+      "picUrl": "",
+      "publishTime": 1498551678,
+      "privilege": 0,
+      "media": "财经信息网",
+      "type": 0,
+      "txtType": 1
+    },
+    {
+      "id": "5952165c5f1eb14066a7d820",
+      "title": "主力资金近三日都在买这些概念股",
+      "picUrl": "",
+      "publishTime": 1498551672,
+      "privilege": 0,
+      "media": "证券时报",
+      "type": 0,
+      "txtType": 1
+    },
+    {
+      "id": "5952165c5f1eb14066a7d81f",
+      "title": "迅游科技(300467):狮之吼将成为公司海外市场入口",
+      "picUrl": "",
+      "publishTime": 1498551653,
+      "privilege": 0,
+      "media": "证券时报",
+      "type": 0,
+      "txtType": 1
+    }
+  ]
+}

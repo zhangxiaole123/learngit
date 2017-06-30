@@ -1,0 +1,308 @@
+{
+  "errCode": 0,
+  "errMsg": "",
+  "costTime": 182,
+  "data": [
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f27",
+      "title": "要闻",
+      "fixed": 1,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f2c",
+      "title": "新股提示",
+      "fixed": 1,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f2d",
+      "title": "国内财经",
+      "fixed": 1,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f2e",
+      "title": "国际财经",
+      "fixed": 1,
+      "url": ""
+    },
+    {
+      "type": 2,
+      "id": "57e4e49af5a4652492d58f29",
+      "title": "直播",
+      "fixed": 1,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f2b",
+      "title": "交易提示",
+      "fixed": 1,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f2f",
+      "title": "A股",
+      "fixed": 1,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f30",
+      "title": "B股",
+      "fixed": 0,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f3c",
+      "title": "个股速递",
+      "fixed": 0,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f41",
+      "title": "行业新闻",
+      "fixed": 0,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f42",
+      "title": "三板",
+      "fixed": 0,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f34",
+      "title": "港股",
+      "fixed": 0,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f45",
+      "title": "港股通提示",
+      "fixed": 0,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f31",
+      "title": "基金",
+      "fixed": 0,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f32",
+      "title": "债券",
+      "fixed": 0,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f37",
+      "title": "IPO动态",
+      "fixed": 0,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f35",
+      "title": "理财",
+      "fixed": 0,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f44",
+      "title": "外汇",
+      "fixed": 0,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f39",
+      "title": "研报大全",
+      "fixed": 0,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f36",
+      "title": "新兴产业",
+      "fixed": 0,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f38",
+      "title": "并购重组",
+      "fixed": 0,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f47",
+      "title": "财经学堂",
+      "fixed": 0,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f3a",
+      "title": "投资技巧",
+      "fixed": 0,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f46",
+      "title": "财经数据",
+      "fixed": 0,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f48",
+      "title": "中小板",
+      "fixed": 0,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f49",
+      "title": "创业板",
+      "fixed": 0,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f33",
+      "title": "期货",
+      "fixed": 0,
+      "url": ""
+    }
+  ],
+  "ext": [
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f3d",
+      "title": "市场策略",
+      "fixed": 0,
+      "url": "",
+      "categories": [
+        {
+          "id": 4,
+          "title": "广发策略",
+          "type": 1,
+          "url": ""
+        },
+        {
+          "id": 1,
+          "title": "今日要闻点睛",
+          "type": 1,
+          "url": ""
+        },
+        {
+          "id": 3,
+          "title": "广发宏观",
+          "type": 1,
+          "url": ""
+        },
+        {
+          "id": 5,
+          "title": "环球资讯",
+          "type": 1,
+          "url": ""
+        },
+        {
+          "id": 2,
+          "title": "今日收评",
+          "type": 1,
+          "url": ""
+        },
+        {
+          "id": 4001,
+          "title": "今日热点",
+          "type": 4,
+          "url": "http://shopdev.gf.com.cn/#/dynamic/2?from=info"
+        },
+        {
+          "id": 4002,
+          "title": "投顾荐股",
+          "type": 4,
+          "url": "http://shopdev.gf.com.cn/#/dynamic/3?from=info"
+        },
+        {
+          "id": 6,
+          "title": "周末要闻一览",
+          "type": 1,
+          "url": ""
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f3e",
+      "title": "行业专题",
+      "fixed": 0,
+      "url": "",
+      "categories": [
+        {
+          "id": 1,
+          "title": "策略点评",
+          "type": 1,
+          "url": ""
+        },
+        {
+          "id": 2,
+          "title": "深度研究",
+          "type": 1,
+          "url": ""
+        },
+        {
+          "id": 3,
+          "title": "行业周报",
+          "type": 1,
+          "url": ""
+        },
+        {
+          "id": 4,
+          "title": "行业报告",
+          "type": 1,
+          "url": ""
+        },
+        {
+          "id": 5,
+          "title": "数据评级",
+          "type": 1,
+          "url": ""
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f3f",
+      "title": "有声开讲",
+      "fixed": 0,
+      "url": ""
+    },
+    {
+      "type": 1,
+      "id": "57e4e49af5a4652492d58f40",
+      "title": "资讯产品",
+      "fixed": 0,
+      "url": ""
+    }
+  ]
+}
