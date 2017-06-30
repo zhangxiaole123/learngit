@@ -6,8 +6,26 @@ class RightLogin extends Component{
 		this.state = {
 			showModule:false,
 			hasLogined:false,
-			isGet:true
+			isGet:true,
+			userName:''
 		};
+	}
+	//有缓存自动登录
+	componentDidMount(){
+
+		if(window.localStorage){
+			let userNames = window.localStorage.getItem('userName')
+			this.setState({
+				userName:userNames,
+				hasLogined:true
+			})
+		}
+	}
+	//退出登录 清除缓存
+	deleteStorage(e){
+		e.preventDefault();
+		window.localStorage.clear();
+		this.setState({hasLogined:false})
 	}
 	close(e){
         e.preventDefault();
@@ -47,39 +65,44 @@ class RightLogin extends Component{
 		}
 	}
     gftSubmit(e){	
-    	var that = this;
     	e.preventDefault();
     	var phonenumber = this.refs.phonenumber.value;
     	var phonecode = this.refs.phonecode.value;
     	var canshu = 'response_type=token&client_id=wjjx&redirect_uri=/&mobile='+phonenumber+'&ticket='+phonecode;
     	$.ajax({
-
     		url:url+'/ws/pub/token/access_token/mobile?'+canshu,
     		type: 'POST',
     		dataType:"json",
-
-    		suceess:function(res){
-    			console.log(res)
-    			console.log('ok')
-    			that.setState({
+    		async: false,
+    		success:res=>{
+    			this.setState({
 					showModule:false,
 					hasLogined:true,
-					userid:res.client_id,
+					userName:res.user_id,
+				})
+				//localStorage.setItem("userName", res.user_id);
+				$.ajax({
+					url: 'http://10.2.113.114:90/webapi/1.0.0/session',
+					type: 'POST',
+					dataType: 'JSON',
+					data: {
+						'token':'a20e8102-2ebe-41aa-84a2-6cab8dd10e4b'
+					},
+					success:res=>{
+						console.log('OK')
+						console.log(res)
+					},
+					error:res=>{
+						console.log('shibai')
+					}
 				})
     		},	
     		error:function(error){
-    			console.log('error')
-    		},
-    		completed:function(){
-    			console.log('completed')
+    			//console.log('error')
     		}
-    	})
-    	
-    	
-    	
-    }
+    	})   	
+    }	
     jySubmit(e){
-    	
     	e.preventDefault();
     	var username = this.refs.username.value;
 		var password = this.refs.password.value;
@@ -89,19 +112,15 @@ class RightLogin extends Component{
     		type: 'POST',
     		dataType: 'JSON',
     		data: {
-
     		},
     		success:function(res){
-    			console.log(res)
     			that.setState({
 					showModule:false,
-					userid:res.client_id,
+					userName:res.client_id,
 				})
-
     		}
     	})
     }
-
     toGftlogin(e){
     	e.preventDefault();
     	$('#gftlogin').show();
@@ -115,17 +134,17 @@ class RightLogin extends Component{
     	$('.tojy').addClass('active').siblings('a').removeClass('active');
     }
 	render(){
-		let getPhone = this.state.isGet?'登录':'请稍后...';
+		let getPhone = this.state.isGet?'发送验证码':'请稍后...';
 		let login = this.state.hasLogined
 		?
 		<div className="islogin"  href="##" alt="登录">
 			<i className="userimg"></i>
-			{this.state.userid}
+			{this.state.userName}
 			<div className="DropDownBox" classID="DropDownBox">
 				<div className="arrowBox"></div>
 				<div className="centerBox">
 					<a href="##" className="myCollection">我的收藏</a>
-					<a href="##" className="signOut">退出</a>
+					<a href="##" onClick={this.deleteStorage.bind(this)} className="signOut">退出</a>
 				</div>
 			</div>
 		</div>
@@ -154,12 +173,13 @@ class RightLogin extends Component{
 		                        <div className="">
 		                            <input type="text" id="imgcode " ref="imgcode" maxLength="4" placeholder="输入图形验证码" />
 
-		                            <img className="imgcode"  src="https://testauth.gf.com.cn/kaptcha.jpg"/>                               
+		                            <img className="imgcode"  src="http://localhost:8080/kaptcha.jpg"/>                               
 		                        </div>
 		                        <div>
 		                            <input type="text" ref="phonecode" id="phonecode"  placeholder="手机验证码" />
 		                            <a href="##" onClick={this.getPhoneCode.bind(this)} className="gfYzm gfPYzm">{getPhone}</a>                               
 		                        </div>
+		                        
 		                        <button href="##" className="btn-loginModal" onClick={this.gftSubmit.bind(this)}>登录</button>
 		                    </form>
 	                    </div>

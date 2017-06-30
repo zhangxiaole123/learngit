@@ -2,7 +2,7 @@
  let commonjs={
     formatMsgTime (timespan) {
 
-        var dateTime = new Date(parseInt(timespan));
+        var dateTime = new Date(parseInt(timespan*1000));
         var year = dateTime.getFullYear();
         var month = dateTime.getMonth() + 1;
         var day = dateTime.getDate();

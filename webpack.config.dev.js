@@ -38,9 +38,13 @@ module.exports = {
         port: 8080,
 		open : true,
 		proxy:{
-			'/':{
-				target:'https://testauth.gf.com.cn',
+		/*	'/':{
+				target:'https://testauth.gf.com.cn/',
 				changeOrigin: true,
+				secure: false
+			}*/
+			'/':{
+				target:'http://10.2.113.114:90/webapi/1.0.0/',
 				secure: false
 			}
 		}

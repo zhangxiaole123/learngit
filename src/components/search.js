@@ -10,7 +10,6 @@ class Search extends Component{
         super(props);
         this.change=this.change.bind(this);
         this.searchKeyWord =this.searchKeyWord.bind(this);
-        this.formatMsgTime=this.formatMsgTime.bind(this);
         this.state ={
             // searchStr:''
         };
@@ -42,36 +41,12 @@ class Search extends Component{
         }
 
     }
-
-    formatMsgTime (time) {
-    var dateTime = new Date(parseInt(time)), year = dateTime.getFullYear(), month = dateTime.getMonth() + 1;
-    var day = dateTime.getDate(), hour = dateTime.getHours(), minute = dateTime.getMinutes();
-    var second = dateTime.getSeconds(), now = new Date();
-    var now_new = Date.parse(now.toDateString());  //typescript转换写法
-    var milliseconds = 0;
-    var timeSpanStr;
-    milliseconds = now_new - time;
-
-    if (milliseconds <= 1000 * 60 * 1) {
-        timeSpanStr = '刚刚';
+    searchKeyDown(e){
+        var InputVal = $('#InputVal').val( );        
+        if(e.keyCode=='13'){
+            window.location = `#/news/search/s/${InputVal}`;            
+        }
     }
-    else if (1000 * 60 * 1 < milliseconds && milliseconds <= 1000 * 60 * 60) {
-        timeSpanStr = Math.round((milliseconds / (1000 * 60))) + '分钟前';
-    }
-    else if (1000 * 60 * 60 * 1 < milliseconds && milliseconds <= 1000 * 60 * 60 * 24) {
-        timeSpanStr = Math.round(milliseconds / (1000 * 60 * 60)) + '小时前';
-    }
-    else if (1000 * 60 * 60 * 24 < milliseconds && milliseconds <= 1000 * 60 * 60 * 24 * 15) {
-        timeSpanStr = Math.round(milliseconds / (1000 * 60 * 60 * 24)) + '天前';
-    }
-    else if (milliseconds > 1000 * 60 * 60 * 24 * 15 && year == now.getFullYear()) {
-        timeSpanStr = month + '-' + day + ' ' + hour + ':' + minute;
-    } else {
-        timeSpanStr = year + '-' + month + '-' + day + ' ' + hour + ':' + minute;
-    }
-       return(timeSpanStr) ;
-}
-
 
     goBack(){
         window.history.back();
@@ -93,7 +68,7 @@ class Search extends Component{
                     <div className="left" classID="searchBtn"  onClick={this.searchKeyWord} ></div>
 
                     <div className="right">
-                       <input id="InputVal" onChange={this.change}  type="text" placeholder="大家都在搜：中国证监会行政处罚决定书"  />
+                       <input id="InputVal" onChange={this.change} onKeyDown={(e)=>{this.searchKeyDown(e)}}  type="text" placeholder="大家都在搜：中国证监会行政处罚决定书"  />
                     </div>
                 </div>
                 <div className="search-slide-down">

@@ -56,7 +56,7 @@ render(
         
         <Router history={hashHistory}>
             {/*路由重定向做索引*/}
-            <Redirect from="/" to="/news/home/581990f87c5f6d16d25bdc6c" />
+            <Redirect from="/" to="/news/home/" />
             <Route path="/" component={Box}>
                 <Route path="news/:index(/:wzId)(/:searchStr)" component={NewsIndex}></Route>
                 {/*<Route path="show/:index" component={ShowC}></Route>*/}

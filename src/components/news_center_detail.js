@@ -13,9 +13,13 @@ class NewsDetail extends Component{
 			data:[],
 			authors:[],
 			publishTime:'',
-			linkNumber:'',
-			click:true,
+			likeCnt:'0',
+			lickClick:true,
 			id:'',
+			favoriteCnt:'0',
+			collectImg:false,
+			clickCollect:true,
+			isCavoriteCnt:false
 		}
 	}
 
@@ -33,7 +37,8 @@ class NewsDetail extends Component{
 					data:res.data,
 					authors:res.data.authors,
 					publishTime:res.data.publishTime,
-					linkNumber:res.data.status
+					likeCnt:res.data.stats.likeCnt,
+					favoriteCnt:res.data.stats.favoriteCnt
 				})
 			}
 		})
@@ -52,39 +57,50 @@ class NewsDetail extends Component{
 	clickCollect(e){
 		e.preventDefault();
 		//判断是否登录
-		var customerId=sessionStorage.customerId;
-		if(customerId == undefined){
-			alert("请先登录！")
+		if(window.localStorage){
+			let number = window.localStorage.getItem('userName');
+			if(this.state.clickCollect==true){
+				this.setState({clickCollect:false})
+				$.ajax({
+					url: url+'/action/favorite/article/',
+					type: 'POST',
+					dataType: 'JSON',
+					data: {
+						id: this.props.wzId,
+						number:number
+					},
+					success:res=>{
+						console.log('收藏成功')
+						console.log(res)
+						this.setState({
+							collectImg:true,
+							favoriteCnt:this.state.favoriteCnt+1,
+							isCavoriteCnt:true
+						})
+					}
+				})
+			}
 		}else{
-			$.ajax({
-				url: url+'/action/favorite/article/'+this.props.wzId,
-				type: 'POST',
-				dataType: 'JSON',
-				data: {},
-				success:function(res){
-					this.setState({collectImg:!this.state.collectImg});
-				}
-			})
+			alert("请先登录！")
 		}
-		
 	}
 	//点赞
 	clickLink(e){
 		e.preventDefault();
-		if(this.state.click==true){
+		if(this.state.lickClick==true){
 
 			this.setState({
 				linkImg:!this.state.linkImg,
-				linkNumber:this.state.linkNumber + 1,
+				likeCnt:this.state.likeCnt + 1,
 				click:false
 			});
 			$.ajax({
-				url: url+'/action/like/article/',
+				url: url+'action/like/article/',
 				type: 'POST',
 				dataType: 'JSON',
 				data: {
-					id:this.state.data.id,
-					linkNumber:this.state.linkNumber
+					id:this.state.data.stats.id,
+					likeCnt:this.state.likeCnt
 				},
 				success:function(res){
 					console.log('点赞成功!')
@@ -94,11 +110,12 @@ class NewsDetail extends Component{
 		
 	}
 	render(){
+
 		let item = this.state.data?this.state.data:'';
 		let auth;
 		if(this.state.authors){
 			auth = this.state.authors.map(itmes => (
-				<span key={itmes.certiCode} className="writer">作者 : {itmes.name}</span>
+				<span className="writer">作者 : {itmes.name}</span>
 			))
 		}
 		return(
@@ -121,13 +138,14 @@ class NewsDetail extends Component{
 						<a href="##" alt="点赞" 
 						onClick={this.clickLink.bind(this)}
 						className={this.state.linkImg ? "onLinkImg" : "linkImg"}><i></i>
-						({this.state.linkNumber})</a>
+						({this.state.likeCnt})</a>
 
 
 						<a href="##" alt="收藏" 
 						onClick={this.clickCollect.bind(this)}
 						className={this.state.collectImg ? "collect onCollectImg" : "collect collectImg"}><i></i>
-						收藏({this.state.number})</a>
+						{this.state.isCavoriteCnt?'已收藏':'收藏'}
+						({this.state.favoriteCnt})</a>
 
 						<a 	alt="分享"  className="wechat">
 							<i></i>
@@ -140,7 +158,7 @@ class NewsDetail extends Component{
 					</div>					
 					<div className="report">
 						<a className="showreport" href="##" onClick={this.showReportModal.bind(this)}>举报</a>
-						<ReportModal className="reportModal g-center"/>
+						<ReportModal  id={this.props.wzId} className="reportModal g-center"/>
 					</div>
 				</div>
 				<div className="news-detail-footer">
@@ -151,8 +169,6 @@ class NewsDetail extends Component{
 		)
 	};
 	componentDidMount(){
-		let that=this;
-		console.log( window.location.href.match(/https?\:\/\/(\S*)\?/)[1])
 		$("#erweima").qrcode({ 
             render: 'table', // 渲染方式有table方式（IE兼容）和canvas方式
             width: '80', //宽度 

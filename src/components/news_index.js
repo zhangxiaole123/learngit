@@ -22,7 +22,6 @@ class NewsIndex extends Component{
 			searchData:[]
 		}
 	}
-	componentWillMount(){}
 	render(){
 		let showlist;
 		let right;
